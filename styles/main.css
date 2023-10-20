@@ -289,6 +289,7 @@ section.idea{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top:50px
 
   }
   
@@ -392,21 +393,6 @@ section.idea{
     padding-top:10px;
   }
 
-  section.decor .row{
-    /* padding-top: 100px; */
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
-  }
-
-  section.decor .row .explore_decor{
-    width: 50%;
-    padding: 30px;
-    height: 520px;
-    /* text-align: center;  */
-  }
-  
   section.idea .row .explore_image{
     width: 50%;
     height: 300px; 
@@ -416,6 +402,114 @@ section.idea{
     align-items: center;
     margin-top: 140px;
   }
+
+  section.decor .decor_row{
+
+    display: flex;
+    /* flex-direction: row;
+    justify-content: center; */
+    align-items: center;
+  }
+
+  section.decor .decor_row .decor_explore{
+    width: 50%;
+    height: 300px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+  }
+  
+
+  section.decor .decor_row .decor_explore .decor_heading{
+    color: rgb(0, 107, 108);
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  section.decor .decor_row .decor_explore .decor_title{
+    max-width: 370px;
+    font-size: 24px;
+    color: rgb(0, 107, 108);
+    text-align: center;
+  }
+
+  section.decor .decor_row .decor_explore .decor_button{
+    height: 30px;
+    width: 93px;
+    background: rgb(0, 107, 108);
+    color: rgb(255, 253, 158);
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 999px;
+    text-align: center;
+    margin-top: 20px;
+    padding-top:10px;
+  }
+
+  /* section.decor .decor_row .decor_image{
+    margin-top: 150px;
+  } */
+
+  section.decor .decor_row .decor_image .img1{
+    width: 200px;
+    height: 200px;
+  }
+
+  section.decor .decor_row .decor_image .img2{
+    width: 350px;
+    height: 380px;
+  }
+
+  section.decor .decor_row .decor_image .img3{
+    width: 150px;
+    height: 150px
+  }
+
+  section.decor .decor_row .decor_image .img4{
+    width: 200px;
+    height: 200px;
+  }
+
+  section.decor .decor_row .decor_image .img5{
+    width: 200px;
+    height: 200px;
+  }
+
+  section.decor .decor_row .decor_image .image_1{
+    padding-left: 420px;
+    margin-top: 80px;
+  }
+
+  section.decor .decor_row .decor_image .image_2{
+    padding-right: 328px;
+    margin-top: -205px;
+  }
+
+  section.decor .decor_row .decor_image .image_3{
+    margin-left: 380px;
+    margin-top: -140px
+  }
+
+  section.decor .decor_row .decor_image .image_4{
+    margin-top: 10px;
+    margin-left: 120px;
+  }
+
+  section.decor .decor_row .decor_image .image_5{
+    margin-top: -180px;
+    margin-left: 380px
+  }
+
+ 
+  
+  
+
+
+  
+  
 
 
 
