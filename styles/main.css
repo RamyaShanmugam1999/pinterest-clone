@@ -285,7 +285,7 @@ section.idea{
   }
   
   section.idea .row{
-    padding-top: 100px;
+    /* padding-top: 100px; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -390,6 +390,31 @@ section.idea{
     text-align: center;
     margin-top: 20px;
     padding-top:10px;
+  }
+
+  section.decor .row{
+    /* padding-top: 100px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+  }
+
+  section.decor .row .explore_decor{
+    width: 50%;
+    padding: 30px;
+    height: 520px;
+    /* text-align: center;  */
+  }
+  
+  section.idea .row .explore_image{
+    width: 50%;
+    height: 300px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
   }
 
 
