@@ -91,11 +91,16 @@ margin:0 auto;
 .main_header .links .link_buttons .login {
     color: white;
     background: red;
+    height: 23px;
+    padding-top: 8px;
   }
   
-.main_header .links .link_buttons .link_button .signup {
-    margin-left: 16px;
+.main_header .links .link_buttons .signup {
+    /* margin-left: 16px; */
     background: #efefef;
+    height: 23px;
+    padding-top: 8px;
+
   }
 
 section.main{
@@ -123,13 +128,13 @@ section.decor{
 section.discovery{
     height: 100vh;
     overflow: hidden;
-    background-color: #FFFE92;
+    background-color: #FFE2EB;
 }
 
 section.login{
     height: 100vh;
     overflow: hidden;
-    background-color: #FFE2EB;
+    background-color: #FFFE92;
 }
 
 .main .heading {
@@ -418,7 +423,7 @@ section.idea{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: -25px;
+    margin-top: 40px;
   }
   
 
@@ -440,7 +445,7 @@ section.idea{
     height: 30px;
     width: 93px;
     background: rgb(0, 107, 108);
-    color: rgb(255, 253, 158);
+    color: rgb(204, 246, 238);
     font-size: 16px;
     font-weight: bold;
     border-radius: 999px;
@@ -455,17 +460,17 @@ section.idea{
 
   section.decor .decor_row .decor_image .img1{
     width: 200px;
-    height: 200px;
+    height: 220px;
   }
 
   section.decor .decor_row .decor_image .img2{
     width: 350px;
-    height: 380px;
+    height: 400px;
   }
 
   section.decor .decor_row .decor_image .img3{
     width: 150px;
-    height: 150px
+    height: 160px
   }
 
   section.decor .decor_row .decor_image .img4{
@@ -485,16 +490,16 @@ section.idea{
 
   section.decor .decor_row .decor_image .image_2{
     padding-right: 328px;
-    margin-top: -205px;
+    margin-top: -200px;
   }
 
   section.decor .decor_row .decor_image .image_3{
     margin-left: 380px;
-    margin-top: -140px
+    margin-top: -115px
   }
 
   section.decor .decor_row .decor_image .image_4{
-    margin-top: 10px;
+    margin-top: 30px;
     margin-left: 120px;
   }
 
@@ -502,6 +507,172 @@ section.idea{
     margin-top: -180px;
     margin-left: 380px
   }
+
+  section.decor .decor_row .decor_image .image_2 .image_2_1 {
+    margin-top: 0px;
+    margin-left: 30px;
+  }
+
+  section.decor .decor_row .decor_image .image_2 .image_2_1 .img2_1{
+    width: 80px;
+    height: 115px;
+  }
+
+  section.decor .decor_row .decor_image .image_2 .image_2_1 .img2_2{
+    width: 80px;
+    height: 115px;
+  }
+
+  section.decor .decor_row .decor_image .image_2 .image_2_1 .img2_3{
+    width: 80px;
+    height: 115px;
+  }
+
+  section.decor .decor_row .decor_image .image_1 .image_1_text {
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 28px;
+    margin-top: -135px;
+    margin-left: 29px;
+    width: 156px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "MS Ｐゴシック", Arial, sans-serif;
+
+  }
+
+  section.decor .decor_row .decor_image .image_2 .image_2_text {
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 56px;
+    margin-top: -300px;
+    margin-left: 35px;
+    width:300px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "MS Ｐゴシック", Arial, sans-serif;
+
+  }
+
+  section.decor .decor_row .decor_image .image_3 .image_3_text {
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: -70px;
+    margin-left: 16px;
+    width:130px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "MS Ｐゴシック", Arial, sans-serif;
+
+  }
+
+  section.decor .decor_row .decor_image .image_4 .image_4_text {
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 28px;
+    margin-top: -130px;
+    margin-left: 35px;
+    width:135px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "MS Ｐゴシック", Arial, sans-serif;
+
+  }
+
+  section.decor .decor_row .decor_image .image_5 .image_5_text {
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 28px;
+    margin-top: -137px;
+    margin-left: 24px;
+    width:135px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "MS Ｐゴシック", Arial, sans-serif;
+  }
+
+  section.discovery .discovery_row{
+    display: flex;
+    align-items: center;
+
+  }
+
+  section.discovery .discovery_row .discovery_image{
+
+  }
+
+  section.discovery .discovery_row .discovery_image .discovery_image_1 .image_1{
+    width: 900px;
+    height: 825px;
+    margin-top: 0px;
+    margin-left:0px;
+  }
+
+  section.discovery .discovery_row .discovery_image .discovery_image_2 .image_2{
+    width: 190px;
+    height: 335px;
+    margin-top: -470px;
+    margin-left: 170px;
+    margin-bottom: 600px;
+  }
+
+  section.discovery .discovery_row .discovery_image .discovery_image_3 .image_3{
+    width: 87px;
+    height: 89px;
+    margin-top: -656px;
+    margin-left: 135px;
+    margin-bottom: 600px
+  }
+
+  section.discovery .discovery_row .discovery_image .discovery_image_text{
+    width: 123px;
+    height: 95px;
+    margin-top: -634px;
+    margin-left: 236px;
+    margin-bottom: 600px;
+    color: white;
+    font-weight: 400;
+    font-family: 'Arial', sans-serif; 
+    font-size: 16px; 
+  }
+
+  section.discovery .discovery_row .discovery_content{
+    width: 50%;
+    height: 300px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -600px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,"MS Ｐゴシック",Arial,sans-serif;
+
+  }
+
+
+  section.discovery .discovery_row .discovery_content .discovery_heading{
+    font-size: 60px;
+    color: rgb(195, 47, 0);
+    font-weight: bold;
+    text-align: center;
+    width: 441px;  
+  }
+
+  section.discovery .discovery_row .discovery_content .discovery_title{
+    max-width: 420px;
+    font-size: 24px;
+    color: rgb(195, 47, 0);
+    text-align: center;
+  }
+
+
+  section.discovery .discovery_row .discovery_content .discovery_button{
+ 
+    height: 30px;
+    width: 93px;
+    background: rgb(195, 47, 0);
+    color: rgb(255, 223, 233);
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 999px;
+    text-align: center;
+    margin-top: 20px;
+    padding-top:8px;
+    margin-left: 170px;
+  }
+
+
+  
 
  
   
